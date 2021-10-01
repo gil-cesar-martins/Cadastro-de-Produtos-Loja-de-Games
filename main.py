@@ -6,14 +6,13 @@ from reportlab.pdfgen import canvas
 from PyQt5.QtCore import QSize
 from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow
 
-
 numero_id = 0
 
 banco = mysql.connector.connect(
     host = "localhost",
     user = "root",
-    passwd = "Lun@rS3nt1r",
-    database="box_games",
+    passwd = "",
+    database="",
 )
 
 def gerar_pdf():
